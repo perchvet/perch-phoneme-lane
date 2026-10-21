@@ -1,0 +1,24 @@
+# Phoneme posteriors and scoring output. They are large and rebuilt by dump and score.
+logits/
+*.npy
+scores*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Model and package caches, in case a cache folder is pointed inside the checkout
+.cache/
+huggingface/
+.pytest_cache/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

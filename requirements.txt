@@ -1,0 +1,16 @@
+# Pinned to the versions the lane was built and tested with (Python 3.11.4, Windows).
+# Python 3.11 or newer is required by numpy 2.4.
+#
+# torch: on a machine with a GPU, install a CUDA build of the same release first (the install
+# selector at https://pytorch.org gives the command). The lane picks cuda automatically when torch sees one.
+torch==2.13.0
+transformers==5.14.1
+huggingface_hub==1.26.0
+numpy==2.4.6
+soundfile==0.14.0
+librosa==0.11.0
+# Used only to write pronunciations of names. phonemizer-fork is GPL 3 and the espeak-ng library
+# that espeakng-loader carries is GPL 3 or later; neither is bundled in this repository.
+# A lexicon file that already carries phone tokens does not need them.
+phonemizer-fork==3.3.2
+espeakng-loader==0.2.4

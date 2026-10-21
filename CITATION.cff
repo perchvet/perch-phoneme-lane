@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Perch phoneme lane: scoring a list of names against the phonemes in a recording"
+version: 0.1.0
+date-released: "2026-10-21"
+authors:
+  - name: "Talcoe LLC"
+type: software
+# DOI pending. Zenodo mints it after the first release. Then add it here as
+#   doi: "10.5281/zenodo.NNNNNNN"
+# and under identifiers.
+license: "Apache-2.0"
+repository-code: "https://github.com/perchvet/perch-phoneme-lane"
+url: "https://perch.talcoe.com"
+abstract: >-
+  Scores a list of names against the phoneme probabilities of a recording, so a name can be
+  found in audio even when a speech to text transcript never wrote it. A command line tool and
+  Python modules: store phoneme posteriors for audio files, score them against a lexicon with a
+  CTC Viterbi keyword scorer (free start, free end, per frame ratio), and show one clip with the
+  phones heard and the best fitting names with time spans. Evaluated on synthetic speech only.
+  A nomination source, not a verdict.
+keywords:
+  - phoneme recognition
+  - keyword spotting
+  - CTC
+  - speech recognition
+  - veterinary
+  - drug names
+  - multilingual
+references:
+  - type: article
+    title: "Simple and Effective Zero-shot Cross-lingual Phoneme Recognition"
+    authors:
+      - family-names: "Xu"
+        given-names: "Qiantong"
+      - family-names: "Baevski"
+        given-names: "Alexei"
+      - family-names: "Auli"
+        given-names: "Michael"
+    journal: "arXiv"
+    year: 2021
+    url: "https://arxiv.org/abs/2109.11680"
+    notes: "The phoneme model this tool runs, facebook/wav2vec2-xlsr-53-espeak-cv-ft."

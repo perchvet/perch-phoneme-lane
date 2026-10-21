@@ -1,0 +1,24 @@
+Perch phoneme lane
+Copyright 2026 Talcoe LLC (https://perch.talcoe.com)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+phoneme_lane/scorer.py is copied from the Perch bench (Talcoe LLC) and released here under the
+same Apache 2.0 license.
+
+Material used but not included in this repository:
+
+  Phoneme model. facebook/wav2vec2-xlsr-53-espeak-cv-ft, Apache 2.0, by Qiantong Xu,
+  Alexei Baevski and Michael Auli (https://arxiv.org/abs/2109.11680). It is downloaded
+  from Hugging Face on first use.
+
+  Pronunciations. espeak-ng, GPL 3 or later, through the phonemizer-fork package (GPL 3)
+  and the espeakng-loader package. They are installed by pip and only write pronunciations
+  of names.
+
+Material included in this repository:
+
+  samples/*.wav. Speech synthesized with Kokoro (Apache 2.0), Kokoro 82M by hexgrad,
+  https://huggingface.co/hexgrad/Kokoro-82M, run through kokoro-onnx
+  (https://github.com/thewh1teagle/kokoro-onnx). The sample files are licensed CC BY 4.0,
+  see samples/LICENSE.

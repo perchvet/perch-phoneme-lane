@@ -1,0 +1,114 @@
+{
+  "about": "Synthetic speech only. Every audio file was rendered with Kokoro; no recording of a person is included.",
+  "license": "CC BY 4.0, see LICENSE in this folder. The voices are Kokoro, Apache 2.0.",
+  "audio": [
+    {
+      "file": "r001.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "am_echo",
+      "lang": "en-us",
+      "seconds": 16.66,
+      "resampling": "24 kHz to 16 kHz by linear interpolation",
+      "text": "Morning handover for kennel three, an eight-year-old spayed female Labrador who is one day post op from her G D V surgery. She's on famotidine and maropitant, the morphine C R I was stopped overnight, appetite is still nil, and the plan this morning is to try a dose of Entyce before rounds.",
+      "names_spoken": [
+        "famotidine",
+        "maropitant",
+        "Entyce",
+        "morphine"
+      ]
+    },
+    {
+      "file": "collision_proheart.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "am_echo",
+      "lang": "en-us",
+      "seconds": 4.89,
+      "resampling": "24 kHz to 16 kHz by FFT band limiting, see tools/render_samples.py",
+      "text": "He is such a pro, heart and soul, that the whole clinic trusts him with every case.",
+      "names_spoken": [],
+      "note": "No drug name is spoken. The words pro, heart sound like the brand ProHeart."
+    },
+    {
+      "file": "hi_plan_hf_alpha.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "hf_alpha",
+      "lang": "hi",
+      "seconds": 6.66,
+      "resampling": "24 kHz to 16 kHz by FFT band limiting, see tools/render_samples.py",
+      "text": "ब्रूनो को Apoquel सोलह मिलीग्राम दिन में दो बार दें, और Cerenia एक गोली रोज़ाना तीन दिन तक।",
+      "english_gloss": "Give Bruno Apoquel, sixteen milligrams, twice a day, and Cerenia, one tablet daily for three days.",
+      "phonemes_given_to_kokoro": "bɾˈuːnoː koː ɐpˈɒkwəl sˈoːləh mɪlˈiːɡɾaːm dˈɪn mẽː dˈoː bˈaːɾ dˈẽː, ɔːɾ səɹˈɛniə ˈeːk ɡˈoːli ɾoːzˈaːnaː tˈiːn dˈɪn tˌək",
+      "names_spoken": [
+        "Apoquel",
+        "Cerenia"
+      ]
+    },
+    {
+      "file": "hi_plan_hm_omega.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "hm_omega",
+      "lang": "hi",
+      "seconds": 7.17,
+      "resampling": "24 kHz to 16 kHz by FFT band limiting, see tools/render_samples.py",
+      "text": "ब्रूनो को Apoquel सोलह मिलीग्राम दिन में दो बार दें, और Cerenia एक गोली रोज़ाना तीन दिन तक।",
+      "english_gloss": "Give Bruno Apoquel, sixteen milligrams, twice a day, and Cerenia, one tablet daily for three days.",
+      "phonemes_given_to_kokoro": "bɾˈuːnoː koː ɐpˈɒkwəl sˈoːləh mɪlˈiːɡɾaːm dˈɪn mẽː dˈoː bˈaːɾ dˈẽː, ɔːɾ səɹˈɛniə ˈeːk ɡˈoːli ɾoːzˈaːnaː tˈiːn dˈɪn tˌək",
+      "names_spoken": [
+        "Apoquel",
+        "Cerenia"
+      ]
+    },
+    {
+      "file": "hi_exam_hf_alpha.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "hf_alpha",
+      "lang": "hi",
+      "seconds": 5.74,
+      "resampling": "24 kHz to 16 kHz by FFT band limiting, see tools/render_samples.py",
+      "text": "पेट नरम है, दर्द नहीं, लिम्फ नोड्स नॉर्मल हैं। Heartgard और Bravecto अप टू डेट हैं।",
+      "english_gloss": "The abdomen is soft, no pain, the lymph nodes are normal. Heartgard and Bravecto are up to date.",
+      "phonemes_given_to_kokoro": "pˈeːʈ nˈʌɾəm hɛː, dˈʌɾd nˈʌhĩ, lˈɪmpʰ nˈoːɖs nˈɔrməl hɛ̃ hˈɑːtɡɑːd ɔːɾ bɹˈeɪvktəʊ ˈʌp ʈˈuː ɖˈeːʈ hɛ̃",
+      "names_spoken": [
+        "Heartgard",
+        "Bravecto"
+      ]
+    },
+    {
+      "file": "hi_exam_hm_omega.wav",
+      "engine": "Kokoro v1.0 (ONNX)",
+      "speed": 1.0,
+      "sample_rate": 16000,
+      "channels": 1,
+      "voice": "hm_omega",
+      "lang": "hi",
+      "seconds": 5.89,
+      "resampling": "24 kHz to 16 kHz by FFT band limiting, see tools/render_samples.py",
+      "text": "पेट नरम है, दर्द नहीं, लिम्फ नोड्स नॉर्मल हैं। Heartgard और Bravecto अप टू डेट हैं।",
+      "english_gloss": "The abdomen is soft, no pain, the lymph nodes are normal. Heartgard and Bravecto are up to date.",
+      "phonemes_given_to_kokoro": "pˈeːʈ nˈʌɾəm hɛː, dˈʌɾd nˈʌhĩ, lˈɪmpʰ nˈoːɖs nˈɔrməl hɛ̃ hˈɑːtɡɑːd ɔːɾ bɹˈeɪvktəʊ ˈʌp ʈˈuː ɖˈeːʈ hɛ̃",
+      "names_spoken": [
+        "Heartgard",
+        "Bravecto"
+      ]
+    }
+  ],
+  "other_files": {
+    "names.txt": "265 veterinary drug names, one per line: the lexicon used in the README. Names only; espeak writes the pronunciations when the file is loaded.",
+    "variants_example.json": "One extra spoken form for Cerenia, the shape of a --variants file."
+  }
+}
